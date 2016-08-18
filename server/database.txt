@@ -1,0 +1,6 @@
+-- make a table
+CREATE TABLE animals (
+    id SERIAL PRIMARY KEY,
+    type_animal varchar(30),
+    num_animal int
+);
